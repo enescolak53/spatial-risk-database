@@ -24,7 +24,7 @@ To build a robust and scalable analysis platform, the database schema is strictl
 - **Version Control:** Git & GitHub
 
 ## Repository Contents
-- `risk_platform_db.sql`: The complete database dump, including table schemas, PostGIS configurations, and **24,000+ cleansed spatial records**.
+- `risk_platform_db.sql: The complete database dump, including table schemas, PostGIS configurations, and **24,000+ cleansed spatial records**.
 
 ## How to Run Locally
 
