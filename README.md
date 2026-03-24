@@ -26,14 +26,22 @@ To build a robust and scalable analysis platform, the database schema is strictl
 ## Repository Contents
 - `risk_platform_db.sql`: The complete database dump, including table schemas, PostGIS configurations, and **24,000+ cleansed spatial records**.
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
 -Download the spatial-risk-database file to your computer,
+
 -Set up the database:
+
 -Open pgAdmin 4.
+
 -Create a new, empty database (e.g. test_database).
+
 -In the browser menu on the left, right-click on the database you have just created and select the PSQL Tool.
--In the black terminal window that opens, enter the command within the following  "    " to run the backup file:
-      "  \i 'C:/path/to/your/folder/spatial-risk-database/afad_rsik_platform_db.sql'  "           
+
+-In the black terminal window that opens, enter the command within the following  '    ' to run the backup file:
+
+ -   \i 'C:/path/to/your/folder/spatial-risk-database/afad_rsik_platform_db.sql'     
+
 -And enter (Ensure the folder path does not contain spaces or special characters (like ü, ş, ç). We recommend moving the .sql file to a simple path like C:/proje/ before running.) 
-Once you scroll to the bottom of the page and click the green **‘Commit changes’** button, the repository setup guide will be complete.
+
+-Once you scroll to the bottom of the page and click the green **‘Commit changes’** button, the repository setup guide will be complete.
