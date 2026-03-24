@@ -26,7 +26,7 @@ To build a robust and scalable analysis platform, the database schema is strictl
 ## Repository Contents
 - `risk_platform_db.sql`: The complete database dump, including table schemas, PostGIS configurations, and **24,000+ cleansed spatial records**.
 
-##  How to Run Locally
+## How to Run Locally
 
 -Download the spatial-risk-database file to your computer,
 
